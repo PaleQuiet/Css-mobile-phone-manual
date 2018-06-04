@@ -1,0 +1,2038 @@
+[
+    {
+        "name": "属性 Properties",
+        "url":"properties",
+        "childelement": [
+         {
+            "name": "定位(positioning)",
+            "url":"positioning",
+            "sunelement":[
+                {
+                "name":"position",
+                "description": "检索对象的定位方式",
+                "url":"position"
+                },
+                {
+                "name": "z-index",
+                "description": "检索或设置对象的层叠顺序",
+                "url":"z-index"
+                 },
+                {
+                "name": "top",
+                "description": "检索或设置对象参照相对物顶边界向下偏移位置。",
+                "url":"top"
+                 },
+                {
+                "name": "right",
+                "description": "检索或设置对象参照相对物右边界向左偏移位置。",
+                "url":"right"
+                 },
+                {
+                "name": "bottom",
+                "description": "检索或设置对象参照相对物右边界向上偏移位置。",
+                "url":"bottom"
+                 },
+                {
+                "name": "left",
+                "description": "检索或设置对象参照相对物右边界向右偏移位置。",
+                "url":"left"
+                 },
+                {
+                "name": "clip",
+                "description": "检索或设置对象的可视区域。区域外的部分是透明的",
+                "url":"clip"
+                 }
+            ]
+         },
+        {
+            "name": "布局(Layout)",
+            "url":"layout",
+            "sunelement":[
+                {
+                "name":"display",
+                "description": "设置或检索对象是否及如何显示",
+                "url":"display"
+                },
+                {
+                "name": "float",
+                "description": "该属性的值指出了对象是否及如何浮动。请参阅clear属性",
+                "url":"float"
+                 },
+                {
+                "name": "clear",
+                "description": "该属性的值指出了不允许有浮动对象的边。请参阅float属性",
+                "url":"clear"
+                 },
+                {
+                "name": "visibility",
+                "description": "设置或检索是否显示对象。与display属性不同，此属性为隐藏的对象保留器占据的物理空间",
+                "url":"visibility"
+                 },
+                {
+                "name": "overflow",
+                "description": "复合属性。检索或设置对象处理溢出内容的方式",
+                "url":"overflow"
+                 },
+                {
+                "name": "overflow-x",
+                "description": "检索或设置对象处理横向溢出内容的方式。",
+                "url":"overflow-x"
+                 },
+                {
+                "name": "overflow-y",
+                "description": "检索或设置对象处理纵向溢出内容的方式。",
+                "url":"overflow-y"
+                 }
+            ]
+        },
+        {
+            "name": "尺寸(Dimension)",
+            "url":"dimension",
+            "sunelement":[
+                {
+                "name":"width",
+                "description": "检索或设置对象的宽度",
+                "url":"width"
+                },
+                {
+                "name": "min-width",
+                "description": "检索或设置对象的最小宽度",
+                "url":"min-width"
+                 },
+                {
+                "name": "max-width",
+                "description": "检索或设置对象的最大宽度",
+                "url":"max-width"
+                 },
+                {
+                "name": "height",
+                "description": "检索或设置对象的高度",
+                "url":"height"
+                 },
+                {
+                "name": "min-height",
+                "description": "检索或设置对象的最小高度",
+                "url":"min-height"
+                 },
+                {
+                "name": "max-height",
+                "description": "检索或设置对象的最大高度",
+                "url":"max-heightx"
+                 }
+            ]
+        },
+        {
+            "name": "外补白(Margin)",
+            "url":"margin",
+            "sunelement":[
+                {
+                "name":"margin",
+                "description": "检索或设置对四边的外延边距",
+                "url":"margin"
+                },
+                {
+                "name": "margin-top",
+                "description": "检索或设置对象顶边的外延边距",
+                "url":"margin-top"
+                 },
+                {
+                "name": "margin-right",
+                "description": "检索或设置对象右边的外延边距",
+                "url":"margin-right"
+                 },
+                {
+                "name": "margin-bottom",
+                "description": "检索或设置对象底边的外延边距",
+                "url":"margin-bottom"
+                 },
+                {
+                "name": "margin-left",
+                "description": "检索或设置对象左边的外延边距",
+                "url":"margin-left"
+                 }
+            ]
+        },
+        {
+            "name": "边框(Border)",
+            "url":"border",
+            "sunelement":[
+                {
+                "name":"border",
+                "description": "复合属性。设置对象边框的特性",
+                "url":"border"
+                },
+                {
+                "name":"border-width",
+                "description": "检索或设置对象边框宽度",
+                "url":"border-width"
+                 },
+                {
+                "name":"border-style",
+                "description": "检索或设置对象边框样式",
+                "url":"border-style"
+                 },
+                {
+                "name":"border-color",
+                "description": "检索或设置对象边框颜色",
+                "url":"border-color"
+                 },
+                {
+                "name":"border-top",
+                "description": "复合属性。设置对象顶边的特性",
+                "url":"border-top"
+                 },
+                {
+                "name":"border-top-width",
+                "description": "设置或检索对象顶边宽度",
+                "url":"border-top-width"
+                 },
+                {
+                "name":"border-top-style",
+                "description": "设置或检索对象顶边样式",
+                "url":"border-top-style"
+                 },
+                {
+                "name":"border-top-color",
+                "description": "设置或检索对象顶边颜色",
+                "url":"border-top-color"
+                 },
+                {
+                "name":"border-right",
+                "description": "复合属性。设置对象右边的特性",
+                "url":"border-right"
+                 },
+                {
+                "name":"border-right-width",
+                "description": "设置或检索对象右边宽度",
+                "url":"border-right-width"
+                 },
+                {
+                "name":"border-right-style",
+                "description": "设置或检索对象右边样式",
+                "url":"border-right-style"
+                 },
+                {
+                "name":"border-right-color",
+                "description": "设置或检索对象右边颜色",
+                "url":"border-right-color"
+                 },
+                {
+                "name":"border-bottom",
+                "description": "复合属性。设置对象底边的特性",
+                "url":"border-bottom"
+                 },
+                {
+                "name":"border-bottom-width",
+                "description": "设置或检索对象底边宽度",
+                "url":"border-bottom-width"
+                 },
+                {
+                "name":"border-bottom-style",
+                "description": "设置或检索对象底边样式",
+                "url":"border-bottom-style"
+                 },
+                {
+                "name":"border-bottom-color",
+                "description": "设置或检索对象底边颜色",
+                "url":"border-bottom-color"
+                 },
+                {
+                "name":"border-left",
+                "description": "复合属性。设置对象左边的特性",
+                "url":"border-left"
+                 },
+                {
+                "name":"border-left-width",
+                "description": "设置或检索对象左边宽度",
+                "url":"border-left-width"
+                 },
+                {
+                "name":"border-left-style",
+                "description": "设置或检索对象左边样式",
+                "url":"border-left-style"
+                 },
+                {
+                "name":"border-left-color",
+                "description": "设置或检索对象左边颜色",
+                "url":"border-left-color"
+                 },
+                {
+                "name":"border-radius",
+                "description": "设置或检索对象使用圆角边框",
+                "url":"border-radius"
+                 },
+                {
+                "name":"border-top-left-radius",
+                "description": "设置或检索对象左上角圆角边框",
+                "url":"border-top-left-radius"
+                 },
+                {
+                "name":"border-top-right-radius",
+                "description": "设置或检索对象右上角圆角边框",
+                "url":"border-top-right-radius"
+                 },
+                {
+                "name":"border-bottom-left-radius",
+                "description": "设置或检索对象左下角圆角边框",
+                "url":"border-bottom-left-radius"
+                 },
+                {
+                "name":"border-bottom-right-radius",
+                "description": "设置或检索对象右下角圆角边框",
+                "url":"border-bottom-right-radius"
+                 },
+                {
+                "name":"box-shadow",
+                "description": "设置或检索对象阴影",
+                "url":"box-shadow"
+                 },
+                {
+                "name":"border-image",
+                "description": "设置或检索对象的边框样式使用图像俩填充",
+                "url":"border-image"
+                 },
+                {
+                "name":"border-image-source",
+                "description": "设置或检索对象的边框是否用图像定义样式或图像来源路径",
+                "url":"border-image-source"
+                 },
+                {
+                "name":"border-image-slice",
+                "description": "设置或检索对象的边框背景图的分割方式",
+                "url":"border-image-slice"
+                 },
+                {
+                "name":"border-image-width",
+                "description": "设置或检索对象的边框厚度",
+                "url":"border-image-width"
+                 },
+                {
+                "name":"border-image-outset",
+                "description": "设置或检索对象的边框背景图的扩展",
+                "url":"border-image-outset"
+                 },
+                {
+                "name":"border-image-repeat",
+                "description": "设置或检索对象的边框图像的平铺方式",
+                "url":"border-image-repeat"
+                 }
+            ]
+        },
+        {
+            "name": "背景(Background)",
+            "url":"background",
+            "sunelement":[
+                {
+                "name":"backround",
+                "description": "复合属性。设置或检索对象的背景特性",
+                "url":"backround"
+                },
+                {
+                "name": "background-color",
+                "description": "设置或检索对象的背景颜色",
+                "url":"background-color"
+                 },
+                {
+                "name": "background-image",
+                "description": "设置或检索对象的背景图片",
+                "url":"background-image"
+                 },
+                {
+                "name": "background-repeat",
+                "description": "设置或检索对象的背景图像如何铺排填充",
+                "url":"background-repeat"
+                 },
+                {
+                "name": "background-attacment",
+                "description": "设置或检索对象的背景图像是随对象内容滚动还是固定的",
+                "url":"background-attacment"
+                 },
+                {
+                "name": "background-position",
+                "description": "设置或检索对象的背景图像位置",
+                "url":"background-position"
+                 },
+                {
+                "name": "background-origin",
+                "description": "设置或检索对象的背景图像显示的原点",
+                "url":"background-origin"
+                 },
+                {
+                "name": "background-clip",
+                "description": "设置或检索对象的背景向外裁剪的区域",
+                "url":"background-clip"
+                 },
+                {
+                "name": "background-size",
+                "description": "设置或检索对象的背景图像的尺寸大小",
+                "url":"background-size"
+                 }
+            ]
+        },
+        {
+            "name": "颜色(Color)",
+            "url":"color",
+            "sunelement":[
+                {
+                "name":"color",
+                "description": "指定颜色",
+                "url":"color"
+                },
+                {
+                "name": "opacity",
+                "description": "检索或设置对象的不透明度",
+                "url":"opacity"
+                 }
+            ]
+        },
+        {
+            "name": "字体(Font)",
+            "url":"font",
+            "sunelement":[
+                {
+                "name":"font",
+                "description": "复合属性。设置或检索对象中的文本特性",
+                "url":"font"
+                },
+                {
+                "name": "font-style",
+                "description": "设置或检索对象中的字体样式",
+                "url":"font-style"
+                 },
+                {
+                "name": "font-variant",
+                "description": "设置或检索对象中的文本是否为小型的大写字母",
+                "url":"font-variant"
+                 },
+                {
+                "name": "font-weigt",
+                "description": "设置或检索对象中的文本字体的粗细",
+                "url":"font-weigt"
+                 },
+                {
+                "name": "font-size",
+                "description": "设置或检索对象中的字体尺寸",
+                "url":"font-size"
+                 },
+                {
+                "name": "font-family",
+                "description": "设置或检索对象中文本的字体名称序列",
+                "url":"font-family"
+                 },
+                {
+                "name": "font-stretch",
+                "description": "设置或检索对象中的文字是否横向拉伸变形",
+                "url":"font-stretch"
+                },
+                {
+                "name": "font-size-adjust",
+                "description": "设置或检索小写字母x的高度与对象文字字号的比率",
+                "url":"font-size-adjust"
+                 }
+            ]
+        },
+        {
+            "name": "文本(Text)",
+            "url":"text",
+            "sunelement":[
+                {
+                "name":"text-transform",
+                "description": "检索或设置对象中的文本的大小写",
+                "url":"text-transform"
+                },
+                {
+                "name": "white-space",
+                "description": "设置或检索对象内空格的处理方式",
+                "url":"white-space"
+                 },
+                {
+                "name": "tab-size",
+                "description": "检索或设置对象中的制表符的长度",
+                "url":"tab-size"
+                 },
+                {
+                "name": "word-wrap",
+                "description": "设置或检索当前内容超过指定容器的边界时是否断行",
+                "url":"word-wrap"
+                 },
+                {
+                "name": "overflow-wrap",
+                "description": "设置或检索当前内容超过指定容器的边界时是否断行",
+                "url":"overflow-wrap"
+                 },
+                {
+                "name": "word-break",
+                "description": "设置或检索对象内文本的字内换行行为",
+                "url":"word-break"
+                 },
+                {
+                "name": "text-align",
+                "description": "设置或检索对象中内容的水平对齐方式",
+                "url":"text-align"
+                },
+                {
+                "name": "text-align-last",
+                "description": "设置或检索一个块内的最后一行(包括块内仅一行文本的情况，这时既是第一行也是最后一行)或者被强制打断的行的对齐方式",
+                "url":"text-align-last"
+                 },
+                {
+                "name": "text-justify",
+                "description": "设置或检索对象内调整文本使用的对齐方式",
+                "url":"text-justify"
+                },
+                {
+                "name": "word-spacing",
+                "description": "检索或设置对象中的单词之间的最小，最大和最佳间隙",
+                "url":"word-spacing"
+                },
+                {
+                "name": "letter-spacing",
+                "description": "检索或设置对象中字符之间的最小，最大和最佳间隙",
+                "url":"letter-spacing"
+                },
+                {
+                "name": "text-indent",
+                "description": "检索或设置对象中的文本的缩进",
+                "url":"text-indent"
+                },
+                {
+                "name": "vertical-align",
+                "description": "设置或检索对象中内容的垂直对齐方式",
+                "url":"vertical-align"
+                },
+                {
+                "name": "line-height",
+                "description": "检索或设置对象的行高。即字体最低端与字体内部顶端之间的距离",
+                "url":"line-height"
+                },
+                {
+                "name": "text-size-adjust",
+                "description": "检索或设置移动端页面对象文本的大小调整",
+                "url":"text-size-adjust"
+                }
+            ]
+        },
+        {
+            "name": "文本装饰(Text Decoration)",
+            "url":"text-decoration",
+            "sunelement":[
+                {
+                "name":"text-decoration",
+                "description": "复合属性。检索或设置对象中的文本的装饰",
+                "url":"text-decoration"
+                },
+                {
+                "name": "text-decoration-line",
+                "description": "检索或设置对象中的文本装饰线条的位置",
+                "url":"text-decoration-line"
+                 },
+                {
+                "name": "text-decoration-color",
+                "description": "检索或设置对象中的文本装饰线条的颜色",
+                "url":"text-decoration-color"
+                 },
+                {
+                "name": "text-decoration-style",
+                "description": "检索或设置对象中的文本装饰线条的形状",
+                "url":"text-decoration-style"
+                 },
+                {
+                "name": "text-decoration-skip",
+                "description": "检索或设置对象中的文本装饰线条必须略过内容中的哪些部分",
+                "url":"text-decoration-skip"
+                 },
+                {
+                "name": "text-underline-position",
+                "description": "检索或设置对象中的下划线的位置",
+                "url":"text-underline-position"
+                 },
+                {
+                "name": "text-shadow",
+                "description": "设置或检索对象中文本的文字是否有阴影及模糊效果",
+                "url":"text-shadow"
+                }
+            ]
+        },
+        {
+            "name": "书写模式(Writing Modes)",
+            "url":"writing-modes",
+            "sunelement":[
+                {
+                "name":"direction",
+                "description": "检索或设置文本流的方向",
+                "url":"direction"
+                },
+                {
+                "name": "unicode-bidi",
+                "description": "用于同一个页面里存在不同方向读进的文本显示。与direction属性一起使用",
+                "url":"unicode-bidi"
+                 },
+                {
+                "name": "writing-mode",
+                "description": "设置或检索对象的内容块固有的书写方向",
+                "url":"writing-mode"
+                 }
+            ]
+        },
+        {
+            "name": "列表(List)",
+            "url":"list",
+            "sunelement":[
+                {
+                "name":"list-style",
+                "description": "复合属性。设置列表项目相关内容",
+                "url":"list-style"
+                },
+                {
+                "name": "list-style-image",
+                "description": "设置或检索作为对象的列表项标记的图像",
+                "url":"list-style-image"
+                 },
+                {
+                "name": "list-style-position",
+                "description": "设置或检索作为对象的列表项标记如何根文本排列",
+                "url":"list-style-position"
+                 },
+                {
+                "name": "list-style-type",
+                "description": "设置或检索对象的列表项所使用的预设标记",
+                "url":"list-style-type"
+                 }
+            ]
+        },
+        {
+            "name": "表格(Table)",
+            "url":"table",
+            "sunelement":[
+                {
+                "name":"table-layot",
+                "description": "设置或检索表格的布局算法",
+                "url":"table-layot"
+                },
+                {
+                "name": "border-collapse",
+                "description": "设置或检索表格的行和单元格的边是合并在一起还是按照标准的HTML样式分开",
+                "url":"border-collapse"
+                 },
+                {
+                "name": "border-spacing",
+                "description": "设置或检索表格边框独立时，行和单元格的边框在横向和纵向上的间距",
+                "url":"border-spacing"
+                 },
+                {
+                "name": "caption-side",
+                "description": "设置或检索表格的caption对象是在表格的那一边",
+                "url":"caption-side"
+                 },
+                {
+                "name": "empty-cells",
+                "description": "设置或检索当表格的单元格无内容时，是否显示该单元格的边框",
+                "url":"empty-cells"
+                 }
+            ]
+        },
+        {
+            "name": "内容(Content)",
+            "url":"content",
+            "sunelement":[
+                {
+                "name":"content",
+                "description": "用来和:after及:before伪元素一起使用，在对象前或后显示内容",
+                "url":"content"
+                },
+                {
+                "name": "counter-increment",
+                "description": "设定当一个selector发生时计数器增加的值",
+                "url":"counter-increment"
+                 },
+                {
+                "name": "counter-reset",
+                "description": "将指定selector的计数器复位",
+                "url":"counter-reset"
+                 },
+                {
+                "name": "quotes",
+                "description": "设置或检索对象内使用的嵌套标记",
+                "url":"quotes"
+                 }
+            ]
+        },
+        {
+            "name": "用户界面(User Interface)",
+            "url":"user-interface",
+            "sunelement":[
+                {
+                "name":"appearance",
+                "description": "设置或检索外观按照本地默认样式",
+                "url":"appearance"
+                },
+                {
+                "name": "text-overflow",
+                "description": "当块容器overflow为非visible时，定义内联内容溢出其块容器是否截断或者添加(...)及自定义字符",
+                "url":"text-overflow"
+                 },
+                {
+                "name": "outline",
+                "description": "复合属性。设置或检索对象外的线条轮廓",
+                "url":"outline"
+                 },
+                {
+                "name": "outline-width",
+                "description": "设置或检索对象外的线条轮廓的宽度",
+                "url":"outline-width"
+                 },
+                {
+                "name": "outline-style",
+                "description": "设置或检索对象外的线条轮廓的样式",
+                "url":"outline-style"
+                 },
+                {
+                "name": "outline-color",
+                "description": "设置或检索对象外的线条轮廓的颜色",
+                "url":"outline-color"
+                 },
+                {
+                "name": "outline-offset",
+                "description": "设置或检索对象外的线条轮廓偏移位置的数值",
+                "url":"outline-offset"
+                 },
+                {
+                "name": "nav-index",
+                "description": "设置或检索对象的导航顺序",
+                "url":"nav-index"
+                 },
+                {
+                "name": "nav-up",
+                "description": "设置或检索对象的导航方向",
+                "url":"nav-up"
+                 },
+                {
+                "name": "nav-right",
+                "description": "设置或检索对象的导航方向",
+                "url":"nav-right"
+                 },
+                {
+                "name": "nav-down",
+                "description": "设置或检索对象的导航方向",
+                "url":"nav-down"
+                 },
+                {
+                "name": "nav-left",
+                "description": "设置或检索对象的导航方向",
+                "url":"nav-left"
+                 },
+                {
+                "name": "cursor",
+                "description": "设置或检索在对象上移动的鼠标指针采用何种系统预定义的光标形状",
+                "url":"cursor"
+                 },
+                {
+                "name": "zoom",
+                "description": "设置或检索对象的缩放比例",
+                "url":"zoom"
+                 },
+                {
+                "name": "box-sizing",
+                "description": "设置或检索对象的盒模型组成模式",
+                "url":"box-sizing"
+                 },
+                {
+                "name": "resize",
+                "description": "设置或检索对象的区域是否允许用户缩放，调节元素尺寸大小",
+                "url":"resize"
+                 },
+                {
+                "name": "ime-mode",
+                "description": "设置或检索是否允许用户激活输入中文，韩文，日文等输入法(IME)状态",
+                "url":"ime-mode"
+                 },
+                {
+                "name": "user-select",
+                "description": "设置或检索是否允许用户选中文本",
+                "url":"user-select"
+                 },
+                {
+                "name": "pointer-events",
+                "description": "设置或检索在何时成为属性事件的target",
+                "url":"pointer-events"
+                 }
+            ]
+        },
+        {
+            "name": "多列(Multi-column)",
+            "url":"multi-column",
+            "sunelement":[
+                {
+                "name":"columns",
+                "description": "设置或检索对象的列数和每列的宽度。复合属性",
+                "url":"columns"
+                },
+                {
+                "name": "column-width",
+                "description": "设置或检索对象每列的宽度",
+                "url":"column-width"
+                 },
+                {
+                "name": "column-count",
+                "description": "设置或检索对象的列数",
+                "url":"column-count"
+                 },
+                {
+                "name": "column-gap",
+                "description": "设置或检索对象的列与列之间的间隙",
+                "url":"column-gap"
+                 },
+                {
+                "name": "column-rule",
+                "description": "设置或检索对象的列与列之间的边框。复合属性",
+                "url":"column-rule"
+                 },
+                {
+                "name": "column-rule-width",
+                "description": "设置或检索对象的列与列之间的边框厚度",
+                "url":"column-rule-width"
+                 },
+                {
+                "name": "column-rule-style",
+                "description": "设置或检索对象的列与列之间的边框样式",
+                "url":"column-rule-style"
+                 },
+                {
+                "name": "column-rule-color",
+                "description": "设置或检索对象的列与列之间的边框颜色",
+                "url":"column-rule-color"
+                 },
+                {
+                "name": "column-span",
+                "description": "设置或检索对象元素是否横跨所有列",
+                "url":"column-span"
+                 },
+                {
+                "name": "column-fill",
+                "description": "设置或检索对象所有列的高度是否统一",
+                "url":"column-fill"
+                 },
+                {
+                "name": "column-break-before",
+                "description": "设置或检索对象之前是否断行",
+                "url":"column-break-before"
+                 },
+                {
+                "name": "column-break-after",
+                "description": "设置或检索对象之后是否断行",
+                "url":"column-break-after"
+                 },
+                {
+                "name": "column-break-inside",
+                "description": "设置或检索对象内部是否断行",
+                "url":"column-break-inside"
+                 }
+            ]
+        },
+        {
+            "name": "伸缩盒(Flexible Box)(旧)",
+            "url":"flexible-box",
+            "sunelement":[
+                {
+                "name":"box-orient",
+                "description": "设置或检索伸缩盒对象的子元素的排列方式",
+                "url":"box-orient"
+                },
+                {
+                "name":"box-pack",
+                "description": "设置或检索伸缩盒对象的子元素的对齐方式",
+                "url":"box-pack"
+                },
+                {
+                "name":"box-align",
+                "description": "设置或检索伸缩盒对象的子元素的对齐方式",
+                "url":"box-align"
+                },
+                {
+                "name":"box-flex",
+                "description": "设置或检索伸缩盒对象的子元素如何分配其剩余空间",
+                "url":"box-flex"
+                },
+                {
+                "name":"box-flex-group",
+                "description": "设置或检索伸缩盒对象的子元素的所属组",
+                "url":"box-flex-group"
+                },
+                {
+                "name":"box-ordinal-group",
+                "description": "设置或检索伸缩盒对象的子元素的显示顺序",
+                "url":"box-ordinal-group"
+                },
+                {
+                "name":"box-direction",
+                "description": "设置或检索伸缩盒对象的子元素的排列顺序是否反转",
+                "url":"box-direction"
+                },
+                {
+                "name":"box-lines",
+                "description": "设置或检索伸缩盒对象的子元素是否可以换行显示",
+                "url":"box-lines"
+                }
+            ]
+        },
+        {
+            "name": "伸缩盒(Flexible Box)(新)",
+            "url":"flex",
+            "sunelement":[
+                {
+                "name":"flex",
+                "description": "复合属性。设置或检索伸缩盒对象的子元素如何分配空间",
+                "url":"flex"
+                },
+                {
+                "name":"flex-grow",
+                "description": "设置或检索弹性盒的扩展比率",
+                "url":"flex-grow"
+                },
+                {
+                "name":"flex-shrink",
+                "description": "设置或检索弹性盒的收缩比率",
+                "url":"flex-shrink"
+                },
+                {
+                "name":"flex-basis",
+                "description": "设置或检索弹性盒伸缩基准值",
+                "url":"flex-basis"
+                },
+                {
+                "name":"flex-flow",
+                "description": "复合属性。设置或检索伸缩盒对象的子元素排列方式",
+                "url":"flex-flow"
+                },
+                {
+                "name":"flex-direction",
+                "description": "设置或检索伸缩盒对象的子元素的显示顺序",
+                "url":"flex-direction"
+                },
+                {
+                "name":"flex-wrap",
+                "description": "设置或检索伸缩盒对象的子元素超出父容器时是否换行",
+                "url":"flex-wrap"
+                },
+                {
+                "name":"align-content",
+                "description": "设置或检索弹性盒堆叠伸缩行的对齐方式",
+                "url":"align-content"
+                },
+                {
+                "name":"align-items",
+                "description": "设置或检索弹性盒子元素在侧轴(纵轴)方向上的对齐方式",
+                "url":"align-items"
+                },
+                {
+                "name":"align-self",
+                "description": "设置或检索弹性盒子元素自身在侧轴(纵轴)方向上的对齐方式",
+                "url":"align-self"
+                },
+                {
+                "name":"justify-content",
+                "description": "设置或检索弹性盒子元素在主轴(横轴)方向上的对齐方式",
+                "url":"justify-content"
+                },
+                {
+                "name":"order",
+                "description": "设置或检索伸缩盒对象的子元素出现的顺序",
+                "url":"order"
+                }
+            ]
+        },
+        {
+            "name": "变换(Transform)",
+            "url":"transform",
+            "sunelement":[
+                {
+                "name":"transform",
+                "description": "检索或设置对象的变换",
+                "url":"transform"
+                },
+                {
+                "name":"transform-origin",
+                "description": "检索或设置对象中的变换所参照的原点",
+                "url":"transform-origin"
+                },
+                {
+                "name":"transform-style",
+                "description": "指定某元素的子元素是否位于三维空间内",
+                "url":"transform-style"
+                },
+                {
+                "name":"perspective",
+                "description": "指定观察者与z=0平面的距离",
+                "url":"perspective"
+                },
+                {
+                "name":"perspective-origin",
+                "description": "指定透视点的位置",
+                "url":"perspective-origin"
+                },
+                {
+                "name":"backface-visibility",
+                "description": "指定元素背面面向用户时是否可见",
+                "url":"backface-visibility"
+                }
+            ]
+        },
+        {
+            "name": "过渡(Transition)",
+            "url":"transition",
+            "sunelement":[
+                {
+                "name":"transition",
+                "description": "复合属性。检索或设置对象变换时的过渡效果",
+                "url":"transition"
+                },
+                {
+                "name":"transition-property",
+                "description": "检索或设置对象中的参与过渡的属性",
+                "url":"transition-property"
+                },
+                {
+                "name":"transition-duration",
+                "description": "检索或设置对象过渡的持续时间",
+                "url":"transition-duration"
+                },
+                {
+                "name":"transition-timing-function",
+                "description": "检索或设置对象中过渡的类型",
+                "url":"transition-timing-function"
+                },
+                {
+                "name":"transition-delay",
+                "description": "检索或设置对象延迟过渡的时间",
+                "url":"transition-delay"
+                }
+            ]
+        },
+        {
+            "name": "动画(Animation)",
+            "url":"animation",
+            "sunelement":[
+                {
+                "name":"animation",
+                "description": "复合属性。检索或设置对象所应用的动画特效",
+                "url":"animation"
+                },
+                {
+                "name":"animation-name",
+                "description": "检索或设置对象所应用的动画名称",
+                "url":"animation-name"
+                },
+                {
+                "name":"animation-duration",
+                "description": "检索或设置对象动画的持续时间",
+                "url":"animation-duration"
+                },
+                {
+                "name":"animation-timing-function",
+                "description": "检索或设置对象动画的过渡类型",
+                "url":"animation-timing-function"
+                },
+                {
+                "name":"animation-delay",
+                "description": "检索或设置对象动画延迟的时间",
+                "url":"animation-delay"
+                },
+                {
+                "name":"animation-iteration-count",
+                "description": "检索或设置对象动画的循环次数",
+                "url":"animation-iteration-count"
+                },
+                {
+                "name":"animation-direction",
+                "description": "检索或设置对象动画在循环中是否反向运动",
+                "url":"animation-direction"
+                },
+                {
+                "name":"animation-play-state",
+                "description": "检索或设置对象动画的状态",
+                "url":"animation-play-state"
+                },
+                {
+                "name":"animation-fill-mode",
+                "description": "检索或设置对象动画时间之外的状态",
+                "url":"animation-fill-mode"
+                }
+            ]
+        },
+        {
+            "name": "打印(Printing)",
+            "url":"printing",
+            "sunelement":[
+                {
+                "name":"page",
+                "description": "检索或设置显示对象容器时使用的页面类型",
+                "url":"page"
+                },
+                {
+                "name":"page-break-before",
+                "description": "检索或设置对象之前出现的页分割符",
+                "url":"page-break-before"
+                },
+                {
+                "name":"page-break-after",
+                "description": "检索或设置对象之后出现的页分割符",
+                "url":"page-break-after"
+                },
+                {
+                "name":"page-break-inside",
+                "description": "检索或设置对象容器内部出现的页分割符",
+                "url":"page-break-inside"
+                }
+            ]
+        },
+        {
+            "name": "媒体查询(Media Queries)",
+            "url":"media-queries",
+            "sunelement":[
+                {
+                "name":"width",
+                "description": "定义输出设备中的压面可见区域宽度",
+                "url":"width"
+                },
+                {
+                "name":"height",
+                "description": "定义输出设备中的页面可见区域高度",
+                "url":"height"
+                },
+                {
+                "name":"device-width",
+                "description": "定义输出设备的屏幕可见宽度",
+                "url":"device-width"
+                },
+                {
+                "name":"device-height",
+                "description": "定义输出设备的屏幕可见高度",
+                "url":"device-height"
+                },
+                {
+                "name":"orientation",
+                "description": "定义height是否大于或等于width。值portrait代表是，landscape代表否",
+                "url":"orientation"
+                },
+                {
+                "name":"aspect-ratio",
+                "description": "定义width与height的比率",
+                "url":"aspect-ratio"
+                },
+                {
+                "name":"device-aspect-ratio",
+                "description": "定义'device-width'与'device-height'的比率。如常见的显示器比率：4/3, 16/9, 16/10",
+                "url":"device-aspect-ratio"
+                },
+                {
+                "name":"color",
+                "description": "定义每一组输出设备的彩色原件个数。如果不是彩色设备，则值等于0",
+                "url":"color"
+                },
+                {
+                "name":"color-index",
+                "description": "定义在输出设备的彩色查询表中的条目数。如果没有使用彩色查询表，则值等于0",
+                "url":"color-index"
+                },
+                {
+                "name":"monochrome",
+                "description": "定义在一个单色框架缓冲区中每像素包含的单色原件个数。如果不是单色设备，则值等于0",
+                "url":"monochrome"
+                },
+                {
+                "name":"resolution",
+                "description": "定义设备的分辨率。如：96dpi, 300dpi, 118dpcm",
+                "url":"resolution"
+                },
+                {
+                "name":"scan",
+                "description": "定义电视类设备的扫描工序",
+                "url":"scan"
+                },
+                {
+                "name":"grid",
+                "description": "用来查询输出设备是否使用栅格或点阵。只有1和0才是有效值，1代表是，0代表否",
+                "url":"grid"
+                }
+            ]
+        },
+        {
+            "name": "Only IE",
+            "url":"only-ie",
+            "sunelement":[
+                {
+                "name":"ecrollbar-3dlight-color",
+                "description": "检索或设置对象滚动条3d亮色阴影边框(threedlightshadow)的外观颜色。",
+                "url":"ecrollbar-3dlight-color"
+                },
+                {
+                "name":"ecrollbar-darkshadow-color",
+                "description": "检索或设置对象滚动条3d暗色阴影边框(threedlightshadow)的外观颜色。",
+                "url":"ecrollbar-darkshadow-color"
+                },
+                {
+                "name":"ecrollbar-highlight-color",
+                "description": "检索或设置对象滚动条3d高亮边框(threedlightshadow)的外观颜色。",
+                "url":"ecrollbar-highlight-color"
+                },
+                {
+                "name":"ecrollbar-shadow-color",
+                "description": "检索或设置对象滚动条3d阴影边框(threedlightshadow)的外观颜色。",
+                "url":"ecrollbar-shadow-color"
+                },
+                {
+                "name":"ecrollbar-arrow-color",
+                "description": "检索或设置对象滚动条方向箭头的颜色。当滚动条出现但不可用时，此属性失效",
+                "url":"ecrollbar-arrow-color"
+                },
+                {
+                "name":"ecrollbar-face-color",
+                "description": "检索或设置对象滚动条3D表面的(threedface)的外观颜色",
+                "url":"ecrollbar-face-color"
+                },
+                {
+                "name":"ecrollbar-track-color",
+                "description": "检索或设置对象滚动条拖动区域的外观颜色",
+                "url":"ecrollbar-track-color"
+                },
+                {
+                "name":"ecrollbar-base-color",
+                "description": "检索或设置对象滚动条基准颜色，其它界面颜色将据此自动调整",
+                "url":"ecrollbar-base-color"
+                },
+                {
+                "name":"filter",
+                "description": "设置或检索对象所应用的滤镜效果",
+                "url":"filter"
+                },
+                {
+                "name":"behavior",
+                "description": "设置或检索对象的DHTML行为",
+                "url":"behavior"
+                }
+            ]
+        },
+        {
+            "name": "Only Firefox",
+            "url":"only-firefox",
+            "sunelement":[
+                {
+                "name":"border-colors",
+                "description": "设置或检索对象边框的多重颜色",
+                "url":"border-colors"
+                },
+                {
+                "name":"border-top-colors",
+                "description": "设置或检索对象顶边的多重颜色",
+                "url":"border-top-colors"
+                },
+                {
+                "name":"border-right-colors",
+                "description": "设置或检索对象右边的多重颜色",
+                "url":"border-right-colors"
+                },
+                {
+                "name":"border-bottom-colors",
+                "description": "设置或检索对象底边的多重颜色",
+                "url":"border-bottom-colors"
+                },
+                {
+                "name":"border-left-colors",
+                "description": "设置或检索对象左边的多重颜色",
+                "url":"border-left-colors"
+                }
+            ]
+        },
+        {
+            "name": "Only Webkit",
+            "url":"only-webkit",
+            "sunelement":[
+                {
+                "name":"text-fill-color",
+                "description": "设置或检索对象中的文字填充颜色",
+                "url":"text-fill-color"
+                },
+                {
+                "name":"text-stroke",
+                "description": "复合属性。设置或检索对象中的文字的描边",
+                "url":"text-stroke"
+                },
+                {
+                "name":"text-stroke-width",
+                "description": "设置或检索对象中的文字的描边厚度",
+                "url":"text-stroke-width"
+                },
+                {
+                "name":"text-stroke-color",
+                "description": "设置或检索对象中的文字的描边颜色",
+                "url":"text-stroke-color"
+                },
+                {
+                "name":"box-reflect",
+                "description": "设置或检索对象的倒影",
+                "url":"box-reflect"
+                },
+                {
+                "name":"tap-highlight-color",
+                "description": "设置或检索对象轻按时高亮",
+                "url":"tap-highlight-color"
+                },
+                {
+                "name":"user-drag",
+                "description": "设置或检索一个元素可以被拖拽，而不是它的内容",
+                "url":"user-drag"
+                }
+            ]
+        }
+    ]
+    },
+    {
+        "name": "选择符 Selectors",
+        "url":"selectors",
+        "childelement": [
+         {
+            "name": "元素选择符",
+            "url":"element",
+            "sunelement":[
+                {
+                "name":"通配选择符(*)",
+                "description": "(Uuniversal Selector)所有元素对象",
+                "url":"all"
+                },
+                {
+                "name": "类型选择符(E)",
+                "description": "(Type Selector)以文档语言对象类型作为选择符",
+                "url":"e"
+                 },
+                {
+                "name": "ID选择符(E#id)",
+                "description": "(ID Selector)以唯一标识符id属性等于myid的E对象作为选择符",
+                "url":"id"
+                 },
+                {
+                "name": "类选择符(E.class)",
+                "description": "(Class Selector)以class属性包含myclass的E对象作为选择符",
+                "url":"class"
+                 }
+            ]
+         },
+         {
+            "name": "关系选择符",
+            "url":"relationship",
+            "sunelement":[
+                {
+                "name":"包含选择符(E F)",
+                "description": "(Descendant combinator)选择所有被E元素包含的F元素",
+                "url":"ef"
+                },
+                {
+                "name": "子选择符(E>F)",
+                "description": "(Child combinator)选择所有作为E元素的子元素F",
+                "url":"e-child-f"
+                 },
+                {
+                "name": "相邻选择符(E+F)",
+                "description": "(Adjacent sibling combinator)选择紧贴在E元素之后F元素",
+                "url":"e-adjacent-f"
+                 },
+                {
+                "name": "兄弟选择符(E~F)",
+                "description": "(General sibling combinator)选择E元素所有兄弟元素F",
+                "url":"e-general-f"
+                 }
+            ]
+         },
+         {
+            "name": "属性选择符",
+            "url":"attribute",
+            "sunelement":[
+                {
+                "name":"E[att]",
+                "description": "选择具有att属性的E元素",
+                "url":"att"
+                },
+                {
+                "name":"E[att='val']",
+                "description": "选择具有att属性且属性值等于val的E元素",
+                "url":"att2"
+                },
+                {
+                "name":"E[att~='val']",
+                "description": "选择具有att属性且属性值为一用空格分隔的字词列表，其中一个等于val的E元素",
+                "url":"att3"
+                },
+                {
+                "name":"E[att^='val']",
+                "description": "选择具有att属性且属性值为以val开头的字符串的E元素",
+                "url":"att4"
+                },
+                {
+                "name":"E[att$='val']",
+                "description": "选择具有att属性且属性值为以val结尾的字符串的E元素",
+                "url":"att5"
+                },
+                {
+                "name":"E[att*='val']",
+                "description": "选择具有att属性且属性值为包含val的字符串的E元素",
+                "url":"att6"
+                },
+                {
+                "name":"E[att|='val']",
+                "description": "选择具有att属性且属性值为以val开头并用连接符 - 分隔的字符串的E元素，如果属性值仅为val，也将被选择。",
+                "url":"att7"
+                }
+            ]
+         },
+         {
+            "name": "伪类选择符",
+            "url":"pseudo-classes",
+            "sunelement":[
+                {
+                "name":"E:link",
+                "description": "设置超链接a在未被访问前的样式",
+                "url":"link"
+                },
+                {
+                "name":"E:visited",
+                "description": "设置超链接a在其链接地址已被访问过时的样式",
+                "url":"visited"
+                },
+                {
+                "name":"E:hover",
+                "description": "设置元素在其鼠标悬停时的样式",
+                "url":"hover"
+                },
+                {
+                "name":"E:active",
+                "description": "设置元素在被用户激活（在鼠标点击与释放之间发生的事件）时的样式",
+                "url":"active"
+                },
+                {
+                "name":"E:focus",
+                "description": "设置元素在成为输入焦点（该元素的onfocus事件发生）时的样式",
+                "url":"focus"
+                },
+                {
+                "name":"E:lang(fr)",
+                "description": "匹配使用特殊语言的E元素",
+                "url":"lang(fr)"
+                },
+                {
+                "name":"E:not(s)",
+                "description": "匹配不含有s选择符的元素E",
+                "url":"not(s)"
+                },
+                {
+                "name":"E:root",
+                "description": "匹配E元素在文档的根元素",
+                "url":"root"
+                },
+                {
+                "name":"E:first-child",
+                "description": "匹配父元素的第一个子元素E",
+                "url":"first-child"
+                },
+                {
+                "name":"E:last-child",
+                "description": "匹配父元素的最后一个子元素E",
+                "url":"last-child"
+                },
+                {
+                "name":"E:only-child",
+                "description": "匹配父元素仅有的一个子元素E",
+                "url":"only-child"
+                },
+                {
+                "name":"E:nth-child(n)",
+                "description": "匹配父元素的第n个子元素E",
+                "url":"nth-child(n)"
+                },
+                {
+                "name":"E:nth-last-child(n)",
+                "description": "匹配父元素的倒数第n个子元素E",
+                "url":"nth-last-child(n)"
+                },
+                {
+                "name":"E:first-of-type",
+                "description": "匹配同类型中的第一个同级兄弟元素E",
+                "url":"first-of-type"
+                },
+                {
+                "name":"E:last-of-type",
+                "description": "匹配同类型中的最后一个同级兄弟元素E",
+                "url":"last-of-type"
+                },
+                {
+                "name":"E:only-of-type",
+                "description": "匹配同类型中的唯一的一个同级兄弟元素E",
+                "url":"only-of-type"
+                },
+                {
+                "name":"E:nth-of-type(n)",
+                "description": "匹配同类型中的第n个同级兄弟元素E",
+                "url":"nth-of-type(n)"
+                },
+                {
+                "name":"E:nth-last-of-type(n)",
+                "description": "匹配同类型中的倒数第n个同级兄弟元素E",
+                "url":"nth-last-of-type(n)"
+                },
+                {
+                "name":"E:empty",
+                "description": "匹配没有任何子元素(包括text节点)的元素E",
+                "url":"empty"
+                },
+                {
+                "name":"E:checked",
+                "description": "匹配用户界面上处于选中状态的元素E。(用于input type为radio与checkbox时)",
+                "url":"checked"
+                },
+                {
+                "name":"E:enabled",
+                "description": "匹配用户界面上处于可用状态的元素E",
+                "url":"enabled"
+                },
+                {
+                "name":"E:disable",
+                "description": "匹配用户界面上处于禁用状态的元素E",
+                "url":"disable"
+                },
+                {
+                "name":"E:target",
+                "description": "匹配相关URL指向的E元素",
+                "url":"target"
+                },
+                {
+                "name":"@page:first",
+                "description": "设置页面容器第一页使用的样式。仅用于@page规则",
+                "url":"@page:first"
+                },
+                {
+                "name":"@page:left",
+                "description": "设置页面容器位于装订线左边的所有页面使用的样式。仅用于@page规则",
+                "url":"@page:left"
+                },
+                {
+                "name":"@page:right",
+                "description": "设置页面容器位于装订线右边的所有页面使用的样式。仅用于@page规则",
+                "url":"@page:right"
+                }
+            ]
+         },
+         {
+            "name": "伪对象选择符",
+            "url":"pseudo-element",
+            "sunelement":[
+                {
+                "name":"E:first-letter/E::first-letter",
+                "description": "设置对象内的第一个字符的样式",
+                "url":"first-letter"
+                },
+                {
+                "name":"E:first-line/E::first-line",
+                "description": "设置对象内的第一行的样式",
+                "url":"first-line"
+                },
+                {
+                "name":"E:before/E::before",
+                "description": "设置在对象前（依据对象树的逻辑结构）发生的内容。用来和content属性一起使用",
+                "url":"before"
+                },
+                {
+                "name":"E:after/E::after",
+                "description": "设置在对象后（依据对象树的逻辑结构）发生的内容。用来和content属性一起使用",
+                "url":"after"
+                },
+                {
+                "name":"E:placeholder/E::placeholder",
+                "description": "设置对象文字占位符的样式",
+                "url":"placeholder"
+                },
+                {
+                "name":"E:selection/E::selection",
+                "description": "设置对象被选择时的颜色",
+                "url":"selection"
+                }
+            ]
+         }
+        ]
+    },
+    {
+        "name": "语法与规则 Rules",
+        "url":"rules",
+        "childelement": [
+         {
+            "name": "!important",
+            "url":"!important",
+            "description":"提升指定样式条目的应用优先权"
+         },
+         {
+            "name": "/*comment*/",
+            "url":"comment",
+            "description":"CSS中的注释/*这里是注释的内容*/"
+         },
+         {
+            "name": "@import",
+            "url":"@import",
+            "description":"指定导入的外部样式表及目标媒体。该规则必须在样式表头部最先声明"
+         },
+         {
+            "name": "@charset",
+            "url":"@charset",
+            "description":"在外部样式表文件内使用。指定该样式表使用的字符编码"
+         },
+         {
+            "name": "@media",
+            "url":"@media",
+            "description":"指定样式表规则用于指定的媒体类型和条件"
+         },
+         {
+            "name": "@font-face",
+            "url":"@font-face",
+            "description":"设置嵌入HTML文档的OpenType字体"
+         },
+         {
+            "name": "@page",
+            "url":"@page",
+            "description":"设置页面容器的版式，方向，边空等"
+         },
+         {
+            "name": "@keyframes",
+            "url":"@keyframes",
+            "description":"指定动画名称和动画效果"
+         },
+         {
+            "name": "@supports",
+            "url":"@supports",
+            "description":"检测是否支持某特性"
+         }
+        ]
+    },
+    {
+        "name": "取值与单位 Values and Units",
+        "url":"values",
+        "childelement": [
+         {
+            "name": "长度(Length)",
+            "url":"length",
+            "sunelement":[
+                {
+                "name":"length",
+                "description": "<number>接长度单位",
+                "url":"length"
+                },
+                {
+                "name": "em",
+                "description": "相对于当前对象内文本的字体尺寸",
+                "url":"em"
+                 },
+                {
+                "name": "ex",
+                "description": "相对于字符“x”的高度。通常为字体高度的一半",
+                "url":"ex"
+                 },
+                {
+                "name": "ch",
+                "description": "数字“0”的宽度",
+                "url":"ch"
+                 },
+                {
+                "name": "rem",
+                "description": "相对于根元素(即html元素)font-size计算值的倍数",
+                "url":"rem"
+                 },
+                {
+                "name": "vw",
+                "description": "相对于视口的宽度。视口被均分为100单位的vw",
+                "url":"vw"
+                 },
+                {
+                "name": "vh",
+                "description": "相对于视口的宽度。视口被均分为100单位的vh",
+                "url":"vh"
+                 },
+                {
+                "name": "vmax",
+                "description": "相对于视口的宽度或高度，总是相对于大的那个。视口的宽度或高度被均分为100单位的vmax",
+                "url":"vmax"
+                 },
+                {
+                "name": "vmin",
+                "description": "相对于视口的宽度或高度，总是相对于小的那个。视口的宽度或高度被均分为100单位的vmin",
+                "url":"vmin"
+                 },
+                {
+                "name": "cm",
+                "description": "厘米",
+                "url":"cm"
+                 },
+                {
+                "name": "mm",
+                "description": "毫米",
+                "url":"mm"
+                 },
+                {
+                "name": "q",
+                "description": "1/4毫米（quarter-millimeters）; 1q = 0.25mm",
+                "url":"q"
+                 },
+                {
+                "name": "in",
+                "description": "英寸（inches）; 1in = 2.54cm",
+                "url":"in"
+                 },
+                {
+                "name": "pt",
+                "description": "点（points）; 1pt = 1/72in",
+                "url":"pt"
+                 },
+                {
+                "name": "pc",
+                "description": "派卡（picas）; 1pc = 12pt",
+                "url":"pc"
+                 },
+                {
+                "name": "px",
+                "description": "像素（pixels）; 1px = 1/96in",
+                "url":"px"
+                 }
+            ]
+         },{
+            "name": "角度(Angle)",
+            "url":"angle",
+            "sunelement":[
+                {
+                "name":"<angle>",
+                "description": "<number>接角度单位",
+                "url":"angle"
+                },
+                {
+                "name": "deg",
+                "description": "度(Degrees)",
+                "url":"deg"
+                 },
+                {
+                "name": "grad",
+                "description": "梯度(Gradians)",
+                "url":"grad"
+                 },
+                {
+                "name": "rad",
+                "description": "弧度(Radians)",
+                "url":"rad"
+                 },
+                {
+                "name": "turn",
+                "description": "转、圈(Turns)",
+                "url":"turn"
+                 }
+            ]
+         },{
+            "name": "时间(Time)",
+            "url":"time",
+            "sunelement":[
+                {
+                "name":"<time>",
+                "description": "<number>接时间单位",
+                "url":"time"
+                },
+                {
+                "name": "s",
+                "description": "秒",
+                "url":"s"
+                 },
+                {
+                "name": "ms",
+                "description": "毫秒",
+                "url":"ms"
+                 }
+            ]
+         },{
+            "name": "频率(Frequency)",
+            "url":"frequency",
+            "sunelement":[
+                {
+                "name":"<frequency>",
+                "description": "<number>接频率单位",
+                "url":"frequency"
+                },
+                {
+                "name": "Hz",
+                "description": "赫兹",
+                "url":"Hz"
+                 },
+                {
+                "name": "kHz",
+                "description": "千赫兹",
+                "url":"kHz"
+                 }
+            ]
+         },{
+            "name": "布局(Layout-specific)",
+            "url":"layout-specific",
+            "sunelement":[
+                {
+                "name":"<fraction>",
+                "description": "<number>接剩余空间数单位",
+                "url":"fraction"
+                },
+                {
+                "name": "<grid>",
+                "description": "<number>接网格数单位",
+                "url":"<grid>"
+                 },
+                {
+                "name": "fr",
+                "description": "剩余空间分配数",
+                "url":"fr"
+                 },
+                {
+                "name": "gr",
+                "description": "网格数",
+                "url":"gr"
+                 }
+            ]
+         },{
+            "name": "分辨率(Resolution)",
+            "url":"resolution",
+            "sunelement":[
+                {
+                "name":"<resolution>",
+                "description": "<number>接分辨率单位",
+                "url":"resolution"
+                },
+                {
+                "name": "dpi",
+                "description": "每英寸包含点的数量(dots per inch)",
+                "url":"dpi"
+                 },
+                {
+                "name": "dpcm",
+                "description": "每厘米包含点的数量(dots per centimeter)",
+                "url":"dpcm"
+                 },
+                {
+                "name": "dppx",
+                "description": "每像素包含点的数量(dots per pixel)",
+                "url":"dppx"
+                 }
+            ]
+         },{
+            "name": "颜色(Color)",
+            "url":"color",
+            "sunelement":[
+                {
+                "name":"<color>",
+                "description": "<number>用来表示颜色的关键字或数值规则",
+                "url":"color"
+                },
+                {
+                "name": "Color Name",
+                "description": "用颜色名称来指定颜色。包括基本颜色关键字、系统颜色、SVG颜色关键字等",
+                "url":"color-name"
+                 },
+                {
+                "name": "HEX",
+                "description": "十六进制记法。语法如：#rrggbb或#rgb",
+                "url":"hex"
+                 },
+                {
+                "name": "RGB",
+                "description": "rgb记法",
+                "url":"rgb"
+                 },
+                {
+                "name": "RGBA",
+                "description": "rgba记法",
+                "url":"rgba"
+                 },
+                {
+                "name": "HSL",
+                "description": "hsl记法",
+                "url":"hsl"
+                 },
+                {
+                "name": "HSLA",
+                "description": "hsla记法",
+                "url":"hsla"
+                 },
+                {
+                "name": "transparent",
+                "description": "全透明",
+                "url":"transparent"
+                 },
+                {
+                "name": "currentColor",
+                "description": "当前颜色",
+                "url":"currentcolor"
+                 }
+            ]
+         },{
+            "name": "文本(Textual)",
+            "url":"textual",
+            "sunelement":[
+                {
+                "name":"inherit",
+                "description": "该值使得属性能够继承祖先设置",
+                "url":"inherit"
+                },
+                {
+                "name": "initial",
+                "description": "属性初始值",
+                "url":"initial"
+                 },
+                {
+                "name": "unset",
+                "description": "擦除属性申明",
+                "url":"unset"
+                 },
+                {
+                "name": "<string>",
+                "description": "string记法",
+                "url":"string"
+                 },
+                {
+                "name": "<url>",
+                "description": "在网页上提供一个资源地址。(图像，音频，视频或浏览器支持的其他任何资源)",
+                "url":"url"
+                 },
+                {
+                "name": "<identifier>",
+                "description": "使用用户自定义标识名作为组件取值",
+                "url":"identifier"
+                 }
+            ]
+         },{
+            "name": "函数(Functional)",
+            "url":"functional",
+            "sunelement":[
+                {
+                "name":"calc()",
+                "description": "用于动态计算长度",
+                "url":"calc()"
+                },
+                {
+                "name": "toggle()",
+                "description": "允许子孙元素使用取值序列中的值循环替换继承而来的值",
+                "url":"toggle()"
+                 }
+            ]
+         },{
+            "name": "生成内容(Content)",
+            "url":"content",
+            "sunelement":[
+                {
+                "name":"counter()",
+                "description": "插入计数器",
+                "url":"counter()"
+                },
+                {
+                "name": "counters()",
+                "description": "重复插入的计数器",
+                "url":"counters()"
+                 },
+                {
+                "name": "attr()",
+                "description": "插入元素的属性值",
+                "url":"attr()"
+                 }
+            ]
+         },{
+            "name": "图像(Image)",
+            "url":"image",
+            "sunelement":[
+                {
+                "name":"<image>",
+                "description": "用来表示一个2D图像",
+                "url":"<image>"
+                },
+                {
+                "name": "image()",
+                "description": "用来指定图像或者图像替代",
+                "url":"image()"
+                 },
+                {
+                "name": "image-set()",
+                "description": "根据用户设备的分辨率匹配合适的图像",
+                "url":"image-set()"
+                 },
+                {
+                "name": "<gradient>",
+                "description": "使用简单的语法实现颜色渐变，以便UA在渲染页面自动生成图像",
+                "url":"<gradient>"
+                 },
+                {
+                "name": "linear-gradient()",
+                "description": "用线性渐变创建图像",
+                "url":"linear-gradient()"
+                 },
+                {
+                "name": "radial-gradient()",
+                "description": "用径向渐变创建图像",
+                "url":"radial-gradient()"
+                 },
+                {
+                "name": "repeating-linear-gradient()",
+                "description": "用重复的线性渐变创建图像",
+                "url":"repeating-linear-gradient()"
+                 },
+                {
+                "name": "repeating-radial-gradient()",
+                "description": "用重复的径向渐变创建图像",
+                "url":"repeating-radial-gradient()"
+                 }
+            ]
+         },{
+            "name": "数字(Numeric)",
+            "url":"numeric",
+            "sunelement":[
+                {
+                "name":"<number>",
+                "description": "浮点数",
+                "url":"<number>"
+                },
+                {
+                "name": "<integer>",
+                "description": "整数",
+                "url":"<integer>"
+                 },
+                {
+                "name": "<percentage>",
+                "description": "<number>接%",
+                "url":"<percentage>"
+                 }
+            ]
+         }
+        ]
+    },
+    {
+        "name": "附录 Appendix",
+        "url":"appendix",
+        "childelement": [
+         {
+            "name": "颜色关键字(Color Heywords)",
+            "url":"color-keywords"
+         },{
+            "name": "媒体类型(Media Types)",
+            "url":"media-types"
+         }
+        ]
+    },
+    {
+        "name": "CSS Hack",
+        "url":"hack",
+        "childelement": [
+         {
+            "name": "条件Hack",
+            "url":"conditions"
+         },{
+            "name": "属性级Hack",
+            "url":"properties"
+         },{
+            "name": "选择符级Hack",
+            "url":"selectors"
+         }
+        ]
+    }
+]
+
